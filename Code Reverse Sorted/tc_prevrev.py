@@ -1,0 +1,5 @@
+f = open("tc10-tabel12.txt","r")
+f1 = open("tc10-rev.txt","w")
+f1.writelines(reversed(f.readlines()))
+fout = open("tc10-rev.txt",'r')
+fout.read()
